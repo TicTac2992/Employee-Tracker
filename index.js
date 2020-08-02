@@ -26,7 +26,7 @@ var connection = mysql.createConnection({
     getDepartments();
     getRoles();
     getManagers();
-    getEmployees();
+    getEmployee();
   });
 
   start = () => {
